@@ -1,6 +1,6 @@
 module "vpc" {
     source  = "terraform-google-modules/network/google"
-    version = "~> 3.0"
+    version = "~> 2.5.0"
     
     network_name = "stuart-network"
 
