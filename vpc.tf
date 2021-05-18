@@ -1,4 +1,4 @@
-network_name = stuart-network
+network_name = "stuart-network"
 
 project_id = var.project
 
