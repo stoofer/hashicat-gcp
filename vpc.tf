@@ -1,8 +1,8 @@
-module "vpc" {
-    source  = "terraform-google-modules/network/google"
-    version = "~> 2.5.0"
-    
-    network_name = "stuart-network"
+module "network" {
+  source  = "app.terraform.io/stuartcaborn-training/network/google"
+  version = "2.5.0"
+  # insert required variables here
+  network_name = "stuart-network"
 
     project_id = var.project
 
